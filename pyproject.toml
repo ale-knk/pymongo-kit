@@ -1,0 +1,12 @@
+[project]
+name = "pymongokit"
+version = "0.1.0"
+description = "A lightweight and intuitive wrapper for PyMongo, designed to simplify MongoDB interactions with Pydantic integration."
+authors = [
+    { name = "Alejandro Requena", email = "rb.jandro@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "pydantic==2.8.2",
+    "pymongo==4.8.0"
+]
